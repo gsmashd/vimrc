@@ -1,16 +1,20 @@
-colorscheme gruvbox
-set background=dark
-let g:gruvbox_contrast_dark = 'hard'
-syntax enable
-set tabstop=4  
-set softtabstop=4
+filetype plugin indent on
+set encoding=utf8
+set paste
 set expandtab
-
-set number
-set showcmd
-set cursorline
-filetype indent on
+set textwidth=0
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set backspace=indent,eol,start
+set incsearch
+set ignorecase
+set ruler
 set wildmenu
-set showmatch
-set hlsearch 
-
+set commentstring=\ #\ %s
+set foldlevel=0
+set clipboard+=unnamed   
+syntax on
+let python_highlight_all=1
+"set cursorline
